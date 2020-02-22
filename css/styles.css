@@ -1,0 +1,59 @@
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+h1, h2, h3 {
+    font-family: "Fugaz One", sans-serif;
+}
+
+
+h2 {
+    color: #090033;
+    padding: 10px;
+}
+
+header h2 {
+    color: #CEC8FF;
+}
+
+.site-footer {
+    background-image: linear-gradient(#b7a8f8, white);
+    padding: 20px 0;
+}
+
+.jumbotron {
+    padding: 15px;
+    background-color: #090033;
+    color: white;
+    margin: 0;
+}
+
+.row-content {
+    padding: 50px 0;
+    border-bottom: 1px ridge;
+    min-height: 200px;
+}
+
+.navbar {
+    background-color: #a7a2b6;
+}
+
+.tab-content {
+    border: 1px solid #DDD;
+    border-top: none;
+    padding: 10px;
+}
+
+  .discover-image {
+    position: relative;
+    max-width: 500px;
+  }
+  
+  .discover-image-caption {
+    position: absolute;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
