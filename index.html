@@ -11,35 +11,32 @@
    <!-- Additional CSS must be placed after Bootstrap CSS -->
    <link rel="stylesheet" href="css/styles.css" />
    <link href="css/main.css" rel="stylesheet" />
-   <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css" />
-   <link rel="stylesheet" href="node_modules/bootstrap-social/bootstrap-social.css" />
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
    <!-- endbuild -->
    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lobster|Open+Sans" />
    <title>NuCamp: A Better Way To Camp</title>  
 </head>
 
 <body>
-  
-   <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #001a33;">
-  <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
-  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button>
-  <div class="collapse navbar-collapse" id="navbarText">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Explore Cities</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Explore Careers</a>
-      </li>
-    </ul>
-  </div>
-</nav>
-
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color: #001a33;">
+    <a class="navbar-brand" href="#"><img src="img/logo.png" alt=""></a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarText">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Explore Cities</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="explorecareers.html">Explore Careers</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
 
 <section id="cover" class="min-vh-100">
   <div id="cover-caption">
@@ -49,11 +46,11 @@
                   <div class="px-2">
                       <form action="" class="justify-content-center">
                           <div class="form-group">
-                              <label for="occupationSearch"><h1>I WANT TO BE A..</h1></label>
+                              <label for="occupationSearch"><h1 id ="h1-cover">I WANT TO BE A..</h1></label>
                               <input type="text" class="form-control" placeholder="Pharmacist">
                           </div>
                           <div class="form-group">
-                              <label for="citySearch"><h1>IN...</h1></label>
+                              <label for="citySearch"><h1 id="h1-cover">IN...</h1></label>
                               <input type="text" class="form-control" placeholder="Chicago">
                           </div>
                           <button type="submit" class="btn btn-danger btn-lg">SEARCH</button>
@@ -99,7 +96,6 @@
         </form>
       </div>
     </div>
-    <hr>
   </div>
   
 </footer>
